@@ -1,7 +1,4 @@
 .idea
 vendor
-A.json
-rajaongkir.json
-res.json
-.env
-info.log
+*.json
+*.js
