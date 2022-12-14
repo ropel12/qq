@@ -3,6 +3,5 @@ vendor
 A.json
 rajaongkir.json
 res.json
-*.js
+.env
 info.log
-A.json
