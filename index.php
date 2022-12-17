@@ -1,16 +1,17 @@
 <?php
 require_once  './vendor/autoload.php';
+
 use Satrio\Scrapdata\Util;
 
 
 
 
-var_dump(Util::GetongkirRajaOngkir("Depok","Jakarta+Pusat",1,5,1,'all'));
+// var_dump(Util::GetongkirRajaOngkir("Depok","Jakarta+Pusat",1,5,1,'all'));
 // var_dump(Util::GetongkirRajaOngkir("Depok","Jakarta+Pusat",1,1,2,1));
-//  var_dump(Util::GetWilayahAsal('sum'));
+// var_dump(Util::GetWilayahAsal('jak'));
 // $p=file_get_contents('https://pluginongkoskirim.com/front/asal?s=bog');
 // var_dump($p);
-// var_dump(Util::GetTarif("q",79,1,"w",119));
+var_dump(Util::GetTarif("q", 79, 1, "w", 11999));
 // $data = true;
 // $data1 = false;
 // if($data==false||$data ||$data==200||$data == 20000|| $data ==1){

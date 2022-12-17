@@ -1,7 +1,7 @@
 .idea
 vendor
-A.json
-rajaongkir.json
-res.json
 .env
+*.json
+*.js
 info.log
+src/qwe.cpp

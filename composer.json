@@ -1,15 +1,21 @@
 {
     "name": "satrio/scrapdata",
-    "type": "project",
+    "description": "Ongkir Module",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Satrio\\Scrapdata\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Satrio\\Scrapdata\\" : "tests/"
+        }
+    },
     "authors": [
         {
             "name": "ropel12",
-            "email": "poliwaras32@gmail.com"
+            "email": "indogaming170@gmail.com"
         }
     ],
     "require": {
