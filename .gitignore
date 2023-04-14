@@ -1,0 +1,4 @@
+credential/*.json
+config.json
+credential
+*auth.json
