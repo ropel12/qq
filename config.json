@@ -18,7 +18,7 @@
     "CSRFLENGTH": 20,
     "CSRFMODE": "2",
     "GCP": {
-        "CREDEN": "./credential/Auth.json",
+        "CREDEN": "/app/credential/Auth.json",
         "PROJECTID": "project2-383416",
         "BUCKETNAME" : "prj1ropel",
         "PATH": ""

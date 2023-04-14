@@ -34,7 +34,7 @@ type Config struct {
 func InitConfiguration() (*Config, error) {
 	viper.SetConfigType("json")
 	viper.SetConfigName("config")
-	viper.AddConfigPath(".")
+	viper.AddConfigPath("/app")
 	if err := viper.ReadInConfig(); err != nil {
 		return nil, err
 	}
